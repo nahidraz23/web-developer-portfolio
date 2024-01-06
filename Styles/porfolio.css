@@ -207,6 +207,26 @@ tbody tr {
 footer{
     display: flex;
     background: #FFF8F3;
+    gap: 100px;
     margin-top: 100px;
     padding: 130px 200px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.social-links a{
+    margin-right: 25px;
+}
+
+.contact input[type="text"], input[type="email"], textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border: 0;
+    border-radius: 5px;
+    background: #fff;
+    width: 100%;
 }
